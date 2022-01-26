@@ -1,0 +1,276 @@
+@import "../variables";
+#pageTitle{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .overlay-pattern{
+        z-index: 0;
+    }
+    .section-content{
+        width: 100%;
+        height: 100vh;
+        max-height: 390px;
+        background-image: url("../images/files/titles-bg/bg-title-about-us-3.jpg");
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+        display: flex;
+        align-items: center;
+
+        h1{
+        margin-top: 260px;
+        color: #fff;
+        font-size: $font-size-h1;
+        line-height: 33px;
+        /* &::before{
+            content: "\f105  ";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: $font-size-20;
+            display: inline-block;
+            align-items: center;
+            color: #fff;
+            align-content: center;
+            background: $theme-color;
+            text-align: center;
+            padding: 0 10px;
+            margin-right: 10px;
+            
+        } */
+        }
+    }
+}
+
+.about-us{
+    position: relative;
+    overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    z-index: 3;
+    .section-title{
+        margin-bottom: 10px;
+        span{
+            color: $theme-color;  
+        }
+        
+    }
+    .icon-box-s1{
+        position: relative;
+        .icon-main{
+            span{
+                i{
+                color:$theme-color;
+                font-size: 39px;
+                padding: 20px 0;
+                transition: all 0.3s linear;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                -ms-transition: all 0.3s linear;
+                &:hover{
+                    color: $theme-color-2;
+                }
+                }
+            }
+        }
+        
+        .line-box{
+            height: 3px;
+            width: 100%;
+            background: #efefef;
+            margin-bottom: 15px;
+            position: relative;      
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 0;
+            background: #7141b1;
+            height: 100%;
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;  
+         }
+    }
+
+    .about-right{
+        margin-left: 70px;
+    }
+
+    /* .image-small{
+        position: absolute;
+        right: -25%;
+        bottom: 0;
+        z-index: -1;
+        .image-small-1{
+            position: absolute;
+            top: 150px;
+            left: 70%;
+        }
+    } */
+    
+    .home-about-video {
+        width: 100%;
+        background-image: url(../images/files/titles-bg/img-portada-acercade.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        min-height: 400px;
+        margin-bottom: 45px;
+        box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.3);
+        z-index: 0;
+    }
+
+    @media (max-width: 992px) {
+        .about-right{
+            margin-left: 0;
+        }
+        .home-about-video{
+            width: 100%;
+            margin-top: 90px;
+        }
+    }
+
+    .img-small-1{
+        position: absolute;
+        top: -130px;
+        right: -133px;
+        width: 243px;
+        height: 193px ;
+        background-image: url(../images/files/titles-bg/over-hidden-img1-243px-193px.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: contain;
+        z-index: -2;
+    }
+
+    .img-small-2{
+        position: absolute;
+        bottom: -130px;
+        right: -160px;
+        width: 260px;
+        height: 210px;
+        max-height: 210px;
+        background-image: url(../images/files/titles-bg/over-hidden-img1-260px-210px.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+        z-index: -1;
+    }
+    
+}
+@media (max-width: 992px) {
+    .img-small-1,.img-small-2{
+        display: none;
+    }
+}
+
+
+
+#usClients{
+    width: 100%;
+    height: auto;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    background: #f9f9f9;
+    /* background: $theme-color url(../images/files/parallax-bg/img-1.jpg) no-repeat;
+    img{
+        opacity: 0.5;
+        background-position: top right;
+        background-size: cover;
+    } */
+    .clients-logos{
+        padding: 60px 0;
+        h2{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .owl-carousel {
+            .slide {
+                /* cursor: pointer; */
+                img {
+                    width: auto;
+                    vertical-align: middle;
+                    transition: all 0.3s linear;
+                    -webkit-transition: all 0.3s linear;
+                    -moz-transition: all 0.3s linear;
+                    -o-transition: all 0.3s linear;
+                    -ms-transition: all 0.3s linear;  
+                    &:hover{
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}
+
+/* Counter projects .about-us */
+.counter-bar{
+    /* padding-top: 30px; */
+    padding-bottom: 90px;
+    /* background: #f6f6f6; */
+    margin-top: 100px;
+}
+
+.s-counter4 {
+    background-image: linear-gradient(90deg,$theme-color 0%,$theme-color-2 100%);
+   /* background: $theme-color; */
+    padding: 62px 60px 62px 60px;
+
+    .ot-counter{
+        font-family: $body-font;
+        font-weight: 800;
+        color: #1b1d21;
+        display: inline-block;
+        text-align: left;
+        margin: 9px 0;
+        .text-white{
+            &::before{
+                background-color: #fff;
+            }
+        }
+        span{
+            font-size: 48px;
+            line-height: 1;
+            .num{
+                padding-left: 20px;
+            }
+        }
+        h6{
+            font-family: $heading-font;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #43baff;
+            margin-top: 13px;
+            margin-bottom: 0;
+            padding-left: 20px;
+            letter-spacing: 1px;
+            display: inline-block;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 7px;
+                left: 0;
+                top: 50%;
+                margin-top: -4px;
+                background: #43baff;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+            }
+        }
+    }
+}
+
+

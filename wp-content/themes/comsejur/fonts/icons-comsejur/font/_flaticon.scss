@@ -1,0 +1,116 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/01/2021 04:01
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-equipo:before { content: "\f100"; }
+.flaticon-ley:before { content: "\f101"; }
+.flaticon-empresario:before { content: "\f102"; }
+.flaticon-maleta:before { content: "\f103"; }
+.flaticon-maleta-1:before { content: "\f104"; }
+.flaticon-derecho-civil:before { content: "\f105"; }
+.flaticon-asistencia-social:before { content: "\f106"; }
+.flaticon-tienda:before { content: "\f107"; }
+.flaticon-tienda-1:before { content: "\f108"; }
+.flaticon-centro-comercial:before { content: "\f109"; }
+.flaticon-derechos-de-autor:before { content: "\f10a"; }
+.flaticon-contrato:before { content: "\f10b"; }
+.flaticon-contrato-1:before { content: "\f10c"; }
+.flaticon-contrato-2:before { content: "\f10d"; }
+.flaticon-empresa:before { content: "\f10e"; }
+.flaticon-cuarto-familiar:before { content: "\f10f"; }
+.flaticon-familia:before { content: "\f110"; }
+.flaticon-familia-1:before { content: "\f111"; }
+.flaticon-trabajando:before { content: "\f112"; }
+.flaticon-administracion:before { content: "\f113"; }
+.flaticon-garantia:before { content: "\f114"; }
+.flaticon-tarjeta-de-credito:before { content: "\f115"; }
+.flaticon-pago:before { content: "\f116"; }
+.flaticon-casas:before { content: "\f117"; }
+.flaticon-apartamento:before { content: "\f118"; }
+.flaticon-apartamento-1:before { content: "\f119"; }
+.flaticon-licencias:before { content: "\f11a"; }
+.flaticon-sello:before { content: "\f11b"; }
+.flaticon-negocio:before { content: "\f11c"; }
+.flaticon-acuerdo:before { content: "\f11d"; }
+.flaticon-dia-laboral:before { content: "\f11e"; }
+.flaticon-worker:before { content: "\f11f"; }
+.flaticon-outsourcing:before { content: "\f120"; }
+.flaticon-outsourcing-1:before { content: "\f121"; }
+.flaticon-sedan:before { content: "\f122"; }
+.flaticon-contract:before { content: "\f123"; }
+.flaticon-investment:before { content: "\f124"; }
+.flaticon-real-estate-agent:before { content: "\f125"; }
+    
+    $font-Flaticon-equipo: "\f100";
+    $font-Flaticon-ley: "\f101";
+    $font-Flaticon-empresario: "\f102";
+    $font-Flaticon-maleta: "\f103";
+    $font-Flaticon-maleta-1: "\f104";
+    $font-Flaticon-derecho-civil: "\f105";
+    $font-Flaticon-asistencia-social: "\f106";
+    $font-Flaticon-tienda: "\f107";
+    $font-Flaticon-tienda-1: "\f108";
+    $font-Flaticon-centro-comercial: "\f109";
+    $font-Flaticon-derechos-de-autor: "\f10a";
+    $font-Flaticon-contrato: "\f10b";
+    $font-Flaticon-contrato-1: "\f10c";
+    $font-Flaticon-contrato-2: "\f10d";
+    $font-Flaticon-empresa: "\f10e";
+    $font-Flaticon-cuarto-familiar: "\f10f";
+    $font-Flaticon-familia: "\f110";
+    $font-Flaticon-familia-1: "\f111";
+    $font-Flaticon-trabajando: "\f112";
+    $font-Flaticon-administracion: "\f113";
+    $font-Flaticon-garantia: "\f114";
+    $font-Flaticon-tarjeta-de-credito: "\f115";
+    $font-Flaticon-pago: "\f116";
+    $font-Flaticon-casas: "\f117";
+    $font-Flaticon-apartamento: "\f118";
+    $font-Flaticon-apartamento-1: "\f119";
+    $font-Flaticon-licencias: "\f11a";
+    $font-Flaticon-sello: "\f11b";
+    $font-Flaticon-negocio: "\f11c";
+    $font-Flaticon-acuerdo: "\f11d";
+    $font-Flaticon-dia-laboral: "\f11e";
+    $font-Flaticon-worker: "\f11f";
+    $font-Flaticon-outsourcing: "\f120";
+    $font-Flaticon-outsourcing-1: "\f121";
+    $font-Flaticon-sedan: "\f122";
+    $font-Flaticon-contract: "\f123";
+    $font-Flaticon-investment: "\f124";
+    $font-Flaticon-real-estate-agent: "\f125";
